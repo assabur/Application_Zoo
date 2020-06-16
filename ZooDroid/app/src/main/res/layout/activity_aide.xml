@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg_about"
+    android:orientation="vertical"
+    tools:context=".controleur.Aide">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AIDE"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:text="................"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Cliquer sur le bouton &quot;ENREGISTRER&quot; pour acceder à l'interface qui permet d'enregistrer les animaux. En suite, veillez renseigner le pseudo et l'espèce de l'animal. vous avez la possibilité de prendre la photo de l'animal  en question. Enfin,  veillez enregistrer. Vous avez la possibilité d'enregistrer autant d'animaux que vous voulez. Après avoir fini les enregistrement, vous pouvez lister tous vos enregistrements."
+        android:textColor="@color/cardview_light_background" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="BIENVENUE DANS ZOODROID      BIENVENUE DANS ZOODROID      BIENVENUE DANS ZOODROID"
+        android:textColor="@color/cardview_light_background" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ZooDroid</string>
+    <string name="apropos">A propos de nous</string>
+    <string name="aide">Aide</string>
+    <string name="user">zoodroid</string>
+    <string name="pass">ZooDroid</string>
+</resources>

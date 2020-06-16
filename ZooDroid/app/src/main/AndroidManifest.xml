@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="esi.univbobo.bf.zoodroid">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".controleur.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controleur.DashBoard" />
+        <activity android:name=".controleur.EnregistrerAnimal" />
+        <activity android:name=".controleur.ListerAnimaux" />
+        <activity android:name=".controleur.Apropos" />
+        <activity android:name=".controleur.Aide"></activity>
+    </application>
+
+</manifest>
